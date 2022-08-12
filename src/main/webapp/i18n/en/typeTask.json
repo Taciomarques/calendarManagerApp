@@ -1,0 +1,10 @@
+{
+  "calendarManagerApp": {
+    "TypeTask": {
+      "null": "",
+      "MEETING": "Meeting",
+      "JOB": "Job",
+      "ACTIVITY": "Activity"
+    }
+  }
+}

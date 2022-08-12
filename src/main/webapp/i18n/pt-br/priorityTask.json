@@ -1,0 +1,11 @@
+{
+  "calendarManagerApp": {
+    "PriorityTask": {
+      "null": "",
+      "URGENT": "Urgente",
+      "HIGH": "Alta",
+      "MEDIUM": "Média",
+      "LOW": "Baixa"
+    }
+  }
+}

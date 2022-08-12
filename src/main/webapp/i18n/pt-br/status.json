@@ -1,0 +1,12 @@
+{
+  "calendarManagerApp": {
+    "Status": {
+      "null": "",
+      "TODO": "A Fazer",
+      "DOING": "Em Andamento",
+      "DONE": "Finalizado",
+      "null": "",
+      "undefined": ""
+    }
+  }
+}

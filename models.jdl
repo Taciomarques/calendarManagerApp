@@ -1,0 +1,39 @@
+
+entity Event {
+	name String,
+    descricao String,
+    startDate LocalDate,
+    endDate LocalDate,
+    status Status,
+    participants String
+}
+
+entity Task {
+	title String,
+	description String,
+    type TypeTask,
+    status Status,
+    link String,
+    notes String,
+    attachments String,
+    priority PriorityTask
+}
+
+enum Status {
+	TODO, DOING, DONE
+}
+
+enum TypeTask {
+    MEETING, JOB, ACTIVITY
+}
+
+enum PriorityTask {
+    URGENT, HIGH, MEDIUM, LOW
+}
+
+relationship OneToMany {
+	Event{tasks} to Task{event}
+}
+
+// Use Data Transfer Objects (DTO)
+dto all with mapstruct

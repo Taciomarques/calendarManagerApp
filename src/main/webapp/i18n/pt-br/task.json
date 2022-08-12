@@ -1,0 +1,32 @@
+{
+  "calendarManagerApp": {
+    "task": {
+      "home": {
+        "title": "Tarefas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar nova Tarefa",
+        "createOrEditLabel": "Criar ou editar Tarefa",
+        "notFound": "Nenhuma Tarefa encontrada"
+      },
+      "created": "Uma nova Tarefa foi criada com o identificador {{ param }}",
+      "updated": "Uma nova Tarefa foi atualizada com o identificador {{ param }}",
+      "deleted": "Uma Tarefa foi excluída com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir a Tarefa {{ id }}?"
+      },
+      "detail": {
+        "title": "Tarefa"
+      },
+      "id": "ID",
+      "title": "Título",
+      "description": "Descrição",
+      "type": "Tipo",
+      "status": "Status",
+      "link": "Link",
+      "notes": "Notas",
+      "attachment": "Anexo",
+      "priority": "Prioridade",
+      "event": "Evento"
+    }
+  }
+}

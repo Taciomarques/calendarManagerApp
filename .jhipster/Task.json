@@ -1,0 +1,58 @@
+{
+  "applications": "*",
+  "changelogDate": "20220608221657",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "task",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "TypeTask",
+      "fieldValues": "MEETING,JOB,ACTIVITY"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Status",
+      "fieldValues": "TODO,DOING,DONE"
+    },
+    {
+      "fieldName": "link",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "attachments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "priority",
+      "fieldType": "PriorityTask",
+      "fieldValues": "URGENT,HIGH,MEDIUM,LOW"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Task",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "event",
+      "otherEntityRelationshipName": "tasks",
+      "relationshipName": "event",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

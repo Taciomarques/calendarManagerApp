@@ -1,0 +1,23 @@
+/* after changing this file run 'npm run webapp:build' */
+
+/***************************
+put Sass variables here:
+eg $input-color: red;
+****************************/
+// Override Boostrap variables
+// Import Bootstrap source files from node_modules
+//@import '~bootswatch/dist/yeti/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+//@import '~bootswatch/dist/yeti/bootswatch';
+/* Dirty fix on navbar active link with bootswatch theme */
+nav li.router-link-active .navbar-dropdown-menu {
+  color: white;
+}
+
+nav li.router-link-active .active{
+  background-color: #17a2b8;
+  color: white;
+}
+
+/* jhipster-needle-scss-add-vendor JHipster will add new css style */
