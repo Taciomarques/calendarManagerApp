@@ -19,12 +19,12 @@
       },
       "id": "ID",
       "title": "Título",
-      "content": "Conteudo",
+      "content": "Conteúdo",
       "start": "Data de Início",
       "end": "Data de finalização",
       "status": "Status",
       "participants": "Participantes",
-      "allDay": "Todo dia",
+      "allDay": "Dia Todo",
       "tasks": "Tarefas"
     }
   }

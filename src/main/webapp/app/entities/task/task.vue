@@ -266,8 +266,9 @@
             </button>
           </div>
           <div v-else>
-            <label for="file_bytes" v-text="$t('entity.action.uploadAttachment')" class="btn btn-primary btn-sm">Select
-              Image</label>
+            <label for="file_bytes" class="btn btn-primary btn-sm">
+              <font-awesome-icon icon="upload"></font-awesome-icon> {{ $t('entity.action.uploadAttachment') }}
+            </label>
             <input type="file" style="visibility: hidden" id="file_bytes" @change="setAttachment($event)"/>
           </div>
         </div>

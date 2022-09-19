@@ -110,6 +110,7 @@ export default class EventComponent extends Vue {
   public hideEventDialogNew(): void {
     this.eventClicked = {};
     (<any>this.$refs.showEventNewDialog).hide();
+    this.$router.go(0);
   }
 
   public hideEventDialogDelete(): void {

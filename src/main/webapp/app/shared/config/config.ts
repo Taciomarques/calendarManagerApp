@@ -41,6 +41,7 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
 import { faUsersCog } from '@fortawesome/free-solid-svg-icons/faUsersCog';
 import { faWrench } from '@fortawesome/free-solid-svg-icons/faWrench';
 import { faDownload } from '@fortawesome/free-solid-svg-icons/faDownload';
+import {faUpload} from "@fortawesome/free-solid-svg-icons/faUpload";
 
 import VueCookie from 'vue-cookie';
 import Vuelidate from 'vuelidate';
@@ -150,7 +151,8 @@ export function initFortAwesome(vue) {
     faUsers,
     faUsersCog,
     faWrench,
-    faDownload
+    faDownload,
+    faUpload
   );
 }
 

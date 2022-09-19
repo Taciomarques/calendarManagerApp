@@ -2,7 +2,7 @@
   <div class="modal-body">
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <b-alert class="text-dark" show data-cy="loginError" variant="danger" v-if="authenticationError" v-html="$t('login.messages.error.authentication')">
+        <b-alert show data-cy="loginError" variant="danger" v-if="authenticationError" v-html="$t('login.messages.error.authentication')">
           <strong>Failed to sign in!</strong> Please check your credentials and try again.
         </b-alert>
       </div>
@@ -44,7 +44,7 @@
           <b-alert show variant="warning">
             <b-link
               :to="'/account/reset/request'"
-              class="alert-link text-dark"
+              class="alert-link"
               v-text="$t('login.password.forgot')"
               data-cy="forgetYourPasswordSelector"
               >Did you forget your password?</b-link
@@ -52,9 +52,9 @@
           </b-alert>
         </div>
         <div>
-          <b-alert show variant="warning text-dark">
+          <b-alert show variant="warning">
             <span v-text="$t('global.messages.info.register.noaccount')">You don't have an account yet?</span>
-            <b-link :to="'/register'" class="alert-link text-dark" v-text="$t('global.messages.info.register.link')">Register a new account</b-link>
+            <b-link :to="'/register'" class="alert-link" v-text="$t('global.messages.info.register.link')">Register a new account</b-link>
           </b-alert>
         </div>
       </div>

@@ -2,9 +2,9 @@
   <div>
     <span
       :class="{
-        'badge rounded-pill bg-success': status == 'TODO',
+        'badge rounded-pill bg-success': status == 'DONE',
         'badge rounded-pill bg-primary':
-          status == 'DONE',
+          status == 'TODO',
         'badge rounded-pill bg-warning':
           status == 'DOING',
       }"

@@ -49,9 +49,8 @@
     "messages": {
       "info": {
         "authenticated": {
-          "prefix": "Se deseja ",
-          "link": "entrar",
-          "suffix": ", utilize as seguintes contas padrões:<br/>- Administrador (usuário=\"admin\" and senha=\"admin\") <br/>- Usuário (usuário=\"user\" e senha=\"user\")."
+          "welcome": "Bem-vindo ao Calendar Manager App!",
+          "link": "Entrar"
         },
         "register": {
           "noaccount": "Não possui uma conta ainda?",
@@ -141,5 +140,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "Este é o rodapé da página"
+  "footer": "Desenvolvido por Tácio do Amaral Marques"
 }

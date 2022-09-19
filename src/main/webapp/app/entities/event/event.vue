@@ -148,18 +148,22 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <label class="form-control-label" v-text="$t('calendarManagerApp.event.allDay')" for="event-allDay">All
-            Day</label>
+        <div class="custom-control custom-switch">
           <input
-            type="checkbox"
-            class="form-check"
-            name="allDay"
             id="event-new-allDay"
+            type="checkbox"
+            name="allDay"
             data-cy="allDay"
-            :class="{ invalid: $v.eventClicked.allDay.$invalid }"
+            class="custom-control-input"
             v-model="$v.eventClicked.allDay.$model"
           />
+          <label
+            class="custom-control-label"
+            v-text="$t('calendarManagerApp.event.allDay')"
+            for="event-new-allDay"
+          >
+            All Day
+          </label>
         </div>
 
         <hr/>
@@ -285,18 +289,22 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <label class="form-control-label" v-text="$t('calendarManagerApp.event.allDay')" for="event-allDay">All
-            Day</label>
+        <div class="custom-control custom-switch">
           <input
+            id="event-new-allDay"
             type="checkbox"
-            class="form-check"
             name="allDay"
-            id="event-allDay"
             data-cy="allDay"
-            :class="{ invalid: $v.eventClicked.allDay.$invalid }"
+            class="custom-control-input"
             v-model="$v.eventClicked.allDay.$model"
           />
+          <label
+            class="custom-control-label"
+            v-text="$t('calendarManagerApp.event.allDay')"
+            for="event-new-allDay"
+          >
+            All Day
+          </label>
         </div>
 
         <hr/>
